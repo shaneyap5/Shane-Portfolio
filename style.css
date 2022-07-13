@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cormorant+Garamond:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -14,8 +14,7 @@
 
 /* navbar styling */
 .navbar{
-    /* background:#CC374F; */
-    position:fixed;
+    position: absolute;
     width: 100%;
     font-family: 'Ubuntu', sans-serif;
     padding: 30px 0;
@@ -33,9 +32,10 @@
 }
 
 .navbar .logo a{
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 45px;
+    font-weight: 700;
     color: #fff;
+    font-family: 'Caveat', sans-serif;
 }
 
 .navbar .menu li{
@@ -45,7 +45,7 @@
 
 .navbar .menu li a{
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.5s ease;
@@ -67,7 +67,7 @@
 /* home styling */
 .home{
     display:flex;
-    background-color: black;
+    background-color: rgb(30, 29, 29);
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -94,6 +94,8 @@
 .home .home-content .text-3{
     font-size: 25px;
     margin: 5px 0;
+    display: flex;
+    width: 650px;;
 }
 
 .home .home-content a{
@@ -121,7 +123,7 @@ section{
 }
 .about{
     font-family: 'Cormorant', sans-serif;
-    background-color: black;
+    background-color:rgb(30, 29, 29);
 }
 
 .about .title{
